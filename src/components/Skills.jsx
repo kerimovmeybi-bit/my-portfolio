@@ -13,7 +13,7 @@ function Skills() {
     ];
 
     return (
-        <section id="skills" className="skills">
+        <section id="skills" className="skills" data-aos="fade-up">
             <h2>Skills</h2>
 
             <div className="skills-grid">
