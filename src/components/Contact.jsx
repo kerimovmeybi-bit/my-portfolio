@@ -1,3 +1,5 @@
+import {FaGithub, FaLinkedin, FaEnvelope} from 'react-icons/fa';
+
 function Contact() {
     return (
         <section id="contact" className="contact" data-aos="fade-up">
@@ -13,6 +15,7 @@ function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
+                    <FaGithub/>
                     GitHub
                 </a>
                 <a 
@@ -20,6 +23,7 @@ function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
+                    <FaLinkedin/>
                     LinkedIn
                 </a>
                 <a 
@@ -27,6 +31,7 @@ function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
+                    <FaEnvelope/>
                     Email
                 </a>
             </div>
