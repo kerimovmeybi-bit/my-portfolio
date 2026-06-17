@@ -1,7 +1,11 @@
+import logo from '../assets/logo.png';
+
 function Navbar () {
     return (
         <nav className="navbar">
-            <div className="logo">MK</div>
+            <a href="#home" className="logo">
+                <img src={logo} alt="MK Logo"/>
+            </a>
 
             <ul className="nav-links">
                 <li><a href="#home">Home</a></li>

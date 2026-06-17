@@ -52,6 +52,14 @@ function Hero() {
                 <a href="#contact" className="hero-btn">
                     Contact Me
                 </a>
+                <a
+                    href="public/Kerimli_Meybulla.pdf"
+                    download
+                    className="hero-btn"
+                >
+                    Download Resume
+                </a>
+
             </div>
         </section>
     );
