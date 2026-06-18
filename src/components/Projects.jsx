@@ -1,5 +1,5 @@
-import bookingImg from "../assets/booking-app.png";
-import taskManagerImg from "../assets/task-manager.png";
+import bookingImg from "../assets/Booking-app.png";
+import taskManagerImg from "../assets/Task-manager.png";
 import hiLegalImg from "../assets/HiLegal.png";
 
 function Projects() {

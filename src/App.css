@@ -13,12 +13,10 @@ body {
 /* Hero-section styles */
 .hero {
     min-height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
     padding: 20px;
 }
@@ -71,13 +69,10 @@ body {
 .hero-btn {
     text-decoration: none;
     padding: 14px 28px;
-
     background: #38bdf8;
     color: #0f172a;
-
     border-radius: 12px;
     font-weight: 600;
-
     transition: all 0.3s ease;
 }
 
@@ -140,24 +135,17 @@ body {
 
 .skills-grid {
     display: grid;
-
     grid-template-columns: repeat(auto-fit,
             minmax(150px, 1fr));
-
     gap: 20px;
 }
 
 .skill-card {
     background: #1e293b;
-
     padding: 30px;
-
     border-radius: 12px;
-
     text-align: center;
-
     font-weight: bold;
-
     transition: 0.3s;
 }
 
@@ -166,6 +154,58 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
+
+/* Experience-section styles */
+.experience {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.experience h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.experience-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #1e293b;
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid #334155;
+    transition: 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-header span {
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.experience-header h3 {
+    color: #38bdf8;
+}
+
+.experience-subtitle {
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.experience-card ul {
+    text-align: left;
+    line-height: 1.8;
+}
+
 
 /* Projects-section styles */
 .projects {
@@ -287,7 +327,6 @@ html {
     width: 60px;
     height: 60px;
     object-fit: contain;
-
     transition: 0.3s ease;
 }
 
@@ -310,6 +349,38 @@ html {
 .nav-links a:hover {
     color: #38bdf8;
 }
+
+.burger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+
+    .burger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #0f172a;
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
 
 /* Contact-section styles */
 .contact {
@@ -379,6 +450,7 @@ html {
     .hero-img {
         width: 160px;
         height: 160px;
+        margin-top: 25%;
     }
 }
 
