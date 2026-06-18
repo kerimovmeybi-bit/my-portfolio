@@ -1,16 +1,74 @@
-# React + Vite
+# 🚀 Kerimli Meybi Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://my-portfolio-41u6-git-develop-kerimovmeybi-bits-projects.vercel.app
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend Developer from Ukraine passionate about building modern, responsive and user-friendly web applications.
 
-## Expanding the ESLint configuration
+Currently learning and improving my skills in:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- TypeScript
+- JavaScript
+- Vite
+- Git & GitHub
+- Responsive Design
+
+## 🛠 Tech Stack
+
+- React
+- JavaScript
+- TypeScript
+- Vite
+- CSS3
+- Git
+- GitHub
+- Vercel
+
+## 📂 Featured Projects
+
+### 📅 Booking App
+
+Web application for booking services.
+
+🔗 Demo: https://booking-app-seven-bice-79.vercel.app/
+
+## 🔗 GitHub: https://github.com/kerimovmeybi-bit/Booking-app
+
+### ✅ Task Manager Pro
+
+Task management application built with React.
+
+🔗 Demo: https://task-manager-pro-ng4j.vercel.app/
+
+🔗 GitHub: https://github.com/kerimovmeybi-bit/Task-Manager-Pro
+
+---
+
+### ⚖️ HiLegal Website
+
+Responsive website for a law company.
+
+🔗 Demo: https://hi-legal.vercel.app/
+
+🔗 GitHub: https://github.com/kerimovmeybi-bit/HiLegal
+
+## 📬 Contact
+
+GitHub:
+https://github.com/kerimovmeybi-bit
+
+Portfolio:
+https://my-portfolio-41u6-git-develop-kerimovmeybi-bits-projects.vercel.app
+
+Email:
+kerimovmeybi@gmail.com
+
+---
+
+⭐ Thank you for visiting my portfolio!
