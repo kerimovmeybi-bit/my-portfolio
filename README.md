@@ -4,7 +4,7 @@ Personal portfolio website built with React and Vite.
 
 ## 🌐 Live Demo
 
-🔗 https://my-portfolio-41u6-git-develop-kerimovmeybi-bits-projects.vercel.app
+🔗 https://my-portfolio-omega-ashy-62.vercel.app
 
 ## 👨‍💻 About Me
 

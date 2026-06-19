@@ -4,22 +4,21 @@ function About() {
             <h2>About Me</h2>
 
             <p>
-                Hello! My name is Meybi, and I am an aspiring Frontend Developer from
-                Ukraine. I am passionate about web development and enjoy creating modern,
-                responsive, and user-friendly applications.
+                I am a Frontend Developer from Ukraine passionate about building modern, 
+                responsive, and user-friendly web applications.
             </p>
             <p>
-                Currently, I am improving my skills in JavaScript, React, Git, and
-                Node.js while working on personal projects to gain practical experience.
-                I am focused on writing clean code, learning best practices, and
-                continuously growing as a developer.
+                I specialize in React, JavaScript, TypeScript, and Vite, 
+                and enjoy turning ideas into functional and intuitive user experiences. 
+                Through personal projects, I have gained hands-on experience with modern frontend development, 
+                version control using Git and GitHub, and deployment using Vercel
             </p>
 
             <p>
-                 My goal is to start my professional career in IT, contribute to real
-                projects, and eventually become a Full Stack Developer. I enjoy solving
-                problems, learning new technologies, and building applications that make
-                people's lives easier.
+                I am continuously improving my skills, learning new technologies, 
+                and following best practices in software development. My goal is to join a professional team, 
+                contribute to real-world projects, and continue growing as a developer 
+                while creating applications that deliver value to users.
             </p>
         </section>
     );
