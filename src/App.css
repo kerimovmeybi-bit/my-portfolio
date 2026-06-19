@@ -385,7 +385,7 @@ html {
 /* Contact-section styles */
 .contact {
     text-align: center;
-    padding: 100px 20px;
+    padding: 60px 20px;
 }
 
 .contact h2 {
@@ -424,8 +424,25 @@ html {
 /* Footer styles */
 .footer {
     text-align: center;
-    padding: 30px;
-    border-top: 1px solid #1e293b;
+    padding: 40px 20px;
+    border-top: 1px solid #334155;
+    margin-top: 50px;
+}
+
+.footer h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #94a3b8;
+    margin: 5px 0;
+}
+
+.footer small {
+    display: block;
+    margin-top: 15px;
+    color: #64748b;
 }
 
 
