@@ -1,10 +1,13 @@
 import { TypeAnimation } from "react-type-animation";
 import me from "../assets/me.jpg";
+import { useTranslation } from "react-i18next";
 
 function Hero() {
+    const { t, i18n } = useTranslation();
+
     return (
         <section id="home" className="hero">
-            <span className="hero-greeting">Welcome to my portfolio!</span>
+            <span className="hero-greeting">{t("heroGreeting")}</span>
 
             <img 
                 src={me}
@@ -13,7 +16,7 @@ function Hero() {
             />
 
             <h1>
-                 Hello, I'm <span className="highlight">Kerimli Meybi</span>
+                 {t("heroTitle")} <span className="highlight">Kerimli Meybi</span>
             </h1>
 
             <h2>
@@ -34,10 +37,7 @@ function Hero() {
             </h2>
 
             <p>
-                I'm learning React and web development.
-                I'm looking for my first job in IT and creating interesting projects.
-                Passionate about building modern, responsive, and user-friendly web
-                applications using React and JavaScript.
+                {t("heroDescription")}
             </p>
 
             <div className="hero-buttons">
@@ -50,14 +50,14 @@ function Hero() {
                     GitHub
                 </a>
                 <a href="#contact" className="hero-btn">
-                    Contact Me
+                    {t("contactMe")}
                 </a>
                 <a
                     href="public/Kerimli_Meybulla.pdf"
                     download
                     className="hero-btn"
                 >
-                    Download Resume
+                    {t("downloadResume")}
                 </a>
 
             </div>

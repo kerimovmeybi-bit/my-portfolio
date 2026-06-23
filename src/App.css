@@ -357,6 +357,23 @@ html {
     color: white;
 }
 
+.lang-switcher {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-switcher button {
+    background: transparent;
+    border: 1px solid #38bdf8;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.lang-switcher button:hover {
+    background: #38bdf8;
+}
 
 @media (max-width: 768px) {
 

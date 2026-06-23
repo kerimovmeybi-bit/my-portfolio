@@ -1,14 +1,16 @@
 import bookingImg from "../assets/Booking-app.png";
 import taskManagerImg from "../assets/Task-manager.png";
 import hiLegalImg from "../assets/HiLegal.png";
+import { useTranslation } from "react-i18next";
 
 function Projects() {
+    const { t, i18n } = useTranslation();
+
     const projects = [
         {
             title: "Task Manager Pro",
             image: taskManagerImg,
-            description:
-               "Task management application built with React. Users can create, edit and organize tasks.",
+            description: t("taskManagerDesc"),
             technologies: ["React", "JavaScript", "CSS", "Typescript", "Vite"], 
                github: "https://github.com/kerimovmeybi-bit/Task-Manager-Pro",
                demo: "https://task-manager-pro-ng4j.vercel.app/"
@@ -16,8 +18,7 @@ function Projects() {
         {
             title: "HiLegal website",
             image: hiLegalImg,
-            description:
-                "A responsive website for a law firm, showcasing their services and team members.",
+            description: t("hiLegalDesc"),
             technologies: ["HTML", "CSS", "SCSS", "JavaScript"],
             github: "https://github.com/kerimovmeybi-bit/HiLegal",
             demo: "https://hi-legal.vercel.app/"
@@ -25,8 +26,7 @@ function Projects() {
         {
             title: "Booking App",
             image: bookingImg,
-            description:
-            "Web application for booking services with a user-friendly interface built using React.",
+            description: t("bookingDesc"),
             technologies: ["React", "JavaScript", "CSS", "Typescript", "Vite"],
             github: "https://github.com/kerimovmeybi-bit/Booking-App",
             demo: "https://booking-app-seven-bice-79.vercel.app/"
@@ -35,7 +35,7 @@ function Projects() {
 
     return (
         <section id="projects" className="projects" data-aos="fade-up">
-            <h2>Projects</h2>
+            <h2>{t("projectsTitle")}</h2>
 
             <div className="project-grid">
                 {projects.map((project) => (
@@ -65,7 +65,7 @@ function Projects() {
                                 rel="noopener noreferrer"
                                 className="project-btn"
                             >
-                                GitHub
+                                {t("githubBtn")}
                             </a>
 
                             {project.demo && (
@@ -75,7 +75,7 @@ function Projects() {
                                     rel="noopener noreferrer"
                                     className="project-btn"
                                 >
-                                    Live Demo
+                                    {t("demoBtn")}
                                 </a>
                             )}
                         </div>

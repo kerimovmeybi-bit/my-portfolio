@@ -1,12 +1,15 @@
 import {FaGithub, FaLinkedin, FaEnvelope} from 'react-icons/fa';
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+    const { t, i18n } = useTranslation();
+
     return (
         <section id="contact" className="contact" data-aos="fade-up">
-            <h2>Contact Me</h2>
+            <h2>{t("contactTitle")}</h2>
 
             <p>
-                Feel free to contact me through the links below.
+                {t("contactText")}
             </p>
 
             <div className="contact-links">
@@ -32,7 +35,7 @@ function Contact() {
                     rel="noopener noreferrer"
                 >
                     <FaEnvelope/>
-                    Email
+                    {t("email")}
                 </a>
             </div>
         </section>
