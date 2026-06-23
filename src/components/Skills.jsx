@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 function Skills() {
     const skills = [
         "HTML",
         "CSS",
         "JavaScript",
-        "Typescript",
+        "TypeScript",
         "React",
         "Git",
         "GitHub",
@@ -12,9 +14,11 @@ function Skills() {
         "MongoDB",
     ];
 
+    const { t, i18n } = useTranslation();
+    
     return (
         <section id="skills" className="skills" data-aos="fade-up">
-            <h2>Skills</h2>
+            <h2>{t("skillsTitle")}</h2>
 
             <div className="skills-grid">
                 {skills.map((skill) => (

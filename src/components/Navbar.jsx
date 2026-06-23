@@ -1,10 +1,13 @@
 import logo from '../assets/logo.png';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 function Navbar () {
 
     const [menuOpen, setMenuOpen] = useState(false);
+
+    const { t, i18n } = useTranslation();
 
     return (
         <nav className="navbar">
@@ -22,36 +25,47 @@ function Navbar () {
             <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
                 <li>
                     <a href="#home" onClick={() => setMenuOpen(false)}>
-                        Home
+                        {t("home")}
                     </a>
                 </li>
                 <li>
                     <a href="#about" onClick={() => setMenuOpen(false)}>
-                        About
+                        {t("about")}
                     </a>
                 </li>
                 <li>
                     <a href="#skills" onClick={() => setMenuOpen(false)}>
-                        Skills
+                        {t("skills")}
                     </a>
                 </li>
                 <li>
                     <a href="#experience" onClick={() => setMenuOpen(false)}>
-                        Experience
+                        {t("experience")}
                     </a>
                 </li>
                 <li>
                     <a href="#projects" onClick={() => setMenuOpen(false)}>
-                        Projects
+                        {t("projects")}
                     </a>
                 </li>
                 <li>
                     <a href="#contact" onClick={() => setMenuOpen(false)}>
-                        Contact
+                        {t("contact")}
                     </a>
                 </li>
             </ul>
-            </nav>
+
+            <div className="lang-switcher">
+                <button onClick={() => i18n.changeLanguage("en")}
+                >
+                    EN
+                </button>
+                <button onClick={() => i18n.changeLanguage("ua")}
+                >
+                    UA
+                </button>
+            </div>
+        </nav>
     );
 }
 

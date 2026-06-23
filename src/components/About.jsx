@@ -1,24 +1,21 @@
+import { useTranslation } from "react-i18next";
+
 function About() {
+    const { t, i18n} = useTranslation();
+
     return (
         <section id="about" className="about" data-aos="fade-up">
-            <h2>About Me</h2>
+            <h2>{t("aboutTitle")}</h2>
 
             <p>
-                I am a Frontend Developer from Ukraine passionate about building modern, 
-                responsive, and user-friendly web applications.
+                {t("aboutText1")}
             </p>
             <p>
-                I specialize in React, JavaScript, TypeScript, and Vite, 
-                and enjoy turning ideas into functional and intuitive user experiences. 
-                Through personal projects, I have gained hands-on experience with modern frontend development, 
-                version control using Git and GitHub, and deployment using Vercel
+                {t("aboutText2")}
             </p>
 
             <p>
-                I am continuously improving my skills, learning new technologies, 
-                and following best practices in software development. My goal is to join a professional team, 
-                contribute to real-world projects, and continue growing as a developer 
-                while creating applications that deliver value to users.
+                {t("aboutText3")}
             </p>
         </section>
     );
