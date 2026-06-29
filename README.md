@@ -4,7 +4,7 @@ Personal portfolio website built with React and Vite.
 
 ## 🌐 Live Demo
 
-🔗 https://my-portfolio-omega-ashy-62.vercel.app
+🔗 https://my-portfolio-ofq1.vercel.app
 
 ## 👨‍💻 About Me
 
@@ -15,15 +15,20 @@ Currently learning and improving my skills in:
 - React
 - TypeScript
 - JavaScript
+- Redux Toolkit
 - Vite
 - Git & GitHub
 - Responsive Design
+- Node.js
 
 ## 🛠 Tech Stack
 
 - React
 - JavaScript
 - TypeScript
+- Redux Toolkit
+- React Router
+- Material UI (MUI)
 - Vite
 - CSS3
 - Git
@@ -32,13 +37,28 @@ Currently learning and improving my skills in:
 
 ## 📂 Featured Projects
 
-### 📅 Booking App
+### 🛒 E-Commerce Store
 
-Web application for booking services.
+Modern e-commerce application built with React, TypeScript and Redux Toolkit.
 
-🔗 Demo: https://booking-app-seven-bice-79.vercel.app/
+**Features:**
 
-## 🔗 GitHub: https://github.com/kerimovmeybi-bit/Booking-app
+- Product catalog
+- Product details page
+- Search products
+- Category filtering
+- Favorites
+- Shopping cart
+- Dark / Light theme
+- Responsive design
+- Mobile drawer navigation
+- LocalStorage persistence
+
+🔗 Demo: YOUR_ECOMMERCE_VERCEL_LINK
+
+🔗 GitHub: https://github.com/kerimovmeybi-bit/ecommerce-store
+
+---
 
 ### ✅ Task Manager Pro
 
@@ -47,6 +67,16 @@ Task management application built with React.
 🔗 Demo: https://task-manager-pro-ng4j.vercel.app/
 
 🔗 GitHub: https://github.com/kerimovmeybi-bit/Task-Manager-Pro
+
+---
+
+### 📅 Booking App
+
+Web application for booking services.
+
+🔗 Demo: https://booking-app-seven-bice-79.vercel.app/
+
+🔗 GitHub: https://github.com/kerimovmeybi-bit/Booking-App
 
 ---
 
@@ -60,15 +90,10 @@ Responsive website for a law company.
 
 ## 📬 Contact
 
-GitHub:
-https://github.com/kerimovmeybi-bit
+GitHub: https://github.com/kerimovmeybi-bit
 
-Portfolio:
-https://my-portfolio-41u6-git-develop-kerimovmeybi-bits-projects.vercel.app
+Portfolio: https://my-portfolio-omega-ashy-62.vercel.app
 
-Email:
-kerimovmeybi@gmail.com
+Email: [kerimovmeybi@gmail.com](mailto:kerimovmeybi@gmail.com)
 
----
-
-⭐ Thank you for visiting my portfolio!
+## ⭐ Thank you for visiting my portfolio!
