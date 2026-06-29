@@ -1,12 +1,21 @@
 import bookingImg from "../assets/Booking-app.png";
 import taskManagerImg from "../assets/Task-manager.png";
 import hiLegalImg from "../assets/HiLegal.png";
+import ecommerceImg from "../assets/ecommerce-store.png"
 import { useTranslation } from "react-i18next";
 
 function Projects() {
     const { t, i18n } = useTranslation();
 
     const projects = [
+        {
+            title: "E-Commerce Store",
+            image: ecommerceImg,
+            description: t("ecommerceDesc"),
+            technologies: ["React","TypeScript","Redux Toolkit","React Router","MUI","Vite"],
+            github: "https://github.com/kerimovmeybi-bit/ecommerce-store",
+            demo: "https://ecommerce-store-k3sk.vercel.app"
+        },
         {
             title: "Task Manager Pro",
             image: taskManagerImg,
@@ -16,20 +25,20 @@ function Projects() {
                demo: "https://task-manager-pro-ng4j.vercel.app/"
         },
         {
-            title: "HiLegal website",
-            image: hiLegalImg,
-            description: t("hiLegalDesc"),
-            technologies: ["HTML", "CSS", "SCSS", "JavaScript"],
-            github: "https://github.com/kerimovmeybi-bit/HiLegal",
-            demo: "https://hi-legal.vercel.app/"
-        },
-        {
             title: "Booking App",
             image: bookingImg,
             description: t("bookingDesc"),
             technologies: ["React", "JavaScript", "CSS", "Typescript", "Vite"],
             github: "https://github.com/kerimovmeybi-bit/Booking-App",
             demo: "https://booking-app-seven-bice-79.vercel.app/"
+        },
+        {
+            title: "HiLegal website",
+            image: hiLegalImg,
+            description: t("hiLegalDesc"),
+            technologies: ["HTML", "CSS", "SCSS", "JavaScript"],
+            github: "https://github.com/kerimovmeybi-bit/HiLegal",
+            demo: "https://hi-legal.vercel.app/"
         },
     ];
 

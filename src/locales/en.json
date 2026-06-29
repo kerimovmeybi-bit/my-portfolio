@@ -35,6 +35,7 @@
     "taskManagerDesc": "Task management application built with React. Users can create, edit and organize tasks.",
     "hiLegalDesc": "A responsive website for a law firm, showcasing their services and team members.",
     "bookingDesc": "Web application for booking services with a user-friendly interface built using React.",
+    "ecommerceDesc": "Modern e-commerce application built with React, TypeScript and Redux Toolkit. Features product search, category filtering, favorites, shopping cart, dark mode, responsive design and product details pages.",
 
     "contactTitle": "Contact Me",
     "contactText": "Feel free to contact me through the links below.",
