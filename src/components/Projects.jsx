@@ -2,6 +2,7 @@ import bookingImg from "../assets/Booking-app.png";
 import taskManagerImg from "../assets/Task-manager.png";
 import hiLegalImg from "../assets/HiLegal.png";
 import ecommerceImg from "../assets/ecommerce-store.png"
+import devQuizImg from "../assets/dev-quiz-app.png";
 import { useTranslation } from "react-i18next";
 
 function Projects() {
@@ -15,6 +16,14 @@ function Projects() {
             technologies: ["React","TypeScript","Redux Toolkit","React Router","MUI","Vite"],
             github: "https://github.com/kerimovmeybi-bit/ecommerce-store",
             demo: "https://ecommerce-store-k3sk.vercel.app"
+        },
+        {
+            title: "Dev Quiz App",
+            image: devQuizImg,
+            description: t("devQuizDesc"),
+            technologies: ["React", "JavaScript", "CSS", "Tailwind CSS", "Vite"],
+            github: "https://github.com/kerimovmeybi-bit/dev-quiz-app",
+            demo: " https://dev-quiz-app-three.vercel.app/"
         },
         {
             title: "Task Manager Pro",
