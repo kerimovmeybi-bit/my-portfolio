@@ -54,40 +54,6 @@ Modern e-commerce application built with React, TypeScript and Redux Toolkit.
 - Mobile drawer navigation
 - LocalStorage persistence
 
-🔗 Demo: YOUR_ECOMMERCE_VERCEL_LINK
-
-🔗 GitHub: https://github.com/kerimovmeybi-bit/ecommerce-store
-
----
-
-### ✅ Task Manager Pro
-
-Task management application built with React.
-
-🔗 Demo: https://task-manager-pro-ng4j.vercel.app/
-
-🔗 GitHub: https://github.com/kerimovmeybi-bit/Task-Manager-Pro
-
----
-
-### 📅 Booking App
-
-Web application for booking services.
-
-🔗 Demo: https://booking-app-seven-bice-79.vercel.app/
-
-🔗 GitHub: https://github.com/kerimovmeybi-bit/Booking-App
-
----
-
-### ⚖️ HiLegal Website
-
-Responsive website for a law company.
-
-🔗 Demo: https://hi-legal.vercel.app/
-
-🔗 GitHub: https://github.com/kerimovmeybi-bit/HiLegal
-
 ## 📬 Contact
 
 GitHub: https://github.com/kerimovmeybi-bit
