@@ -37,6 +37,7 @@
     "bookingDesc": "Web application for booking services with a user-friendly interface built using React.",
     "ecommerceDesc": "Modern e-commerce application built with React, TypeScript and Redux Toolkit. Features product search, category filtering, favorites, shopping cart, dark mode, responsive design and product details pages.",
     "devQuizDesc": "Interactive React quiz app built with Vite and Tailwind CSS. Features score tracking, rank system, and smooth animations.",
+    "cryptoDesc": "An interactive crypto market dashboard with live prices, charts, a currency converter, and exchange price comparisons.",
 
     "contactTitle": "Contact Me",
     "contactText": "Feel free to contact me through the links below.",

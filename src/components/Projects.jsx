@@ -3,6 +3,7 @@ import taskManagerImg from "../assets/Task-manager.png";
 import hiLegalImg from "../assets/HiLegal.png";
 import ecommerceImg from "../assets/ecommerce-store.png"
 import devQuizImg from "../assets/dev-quiz-app.png";
+import cryptoDashboardImg from "../assets/crypto-dashboard.png";
 import { useTranslation } from "react-i18next";
 
 function Projects() {
@@ -30,9 +31,17 @@ function Projects() {
             image: taskManagerImg,
             description: t("taskManagerDesc"),
             technologies: ["React", "JavaScript", "CSS", "Typescript", "Vite"], 
-               github: "https://github.com/kerimovmeybi-bit/Task-Manager-Pro",
-               demo: "https://task-manager-pro-ng4j.vercel.app/"
+            github: "https://github.com/kerimovmeybi-bit/Task-Manager-Pro",
+            demo: "https://task-manager-pro-ng4j.vercel.app/"
         },
+        {
+            title: "Crypto Market Dashboard",
+            image: cryptoDashboardImg, 
+            description: t("cryptoDesc"),
+            technologies: ["React", "TypeScript", "Vite", "Framer Motion", "CoinGecko API"],
+            github: "https://github.com/kerimovmeybi-bit/crypto-dashboard",
+            demo: "https://crypto-dashboard-psi-one.vercel.app"
+        },     
         {
             title: "Booking App",
             image: bookingImg,
